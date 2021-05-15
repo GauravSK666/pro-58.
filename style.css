@@ -1,0 +1,53 @@
+body{
+text-align:center;
+     background: linear-gradient(#002b80 50%,#0055ff 100%)
+}
+#welcome{
+    padding-bottom: 20px;
+}
+#cycle{
+    height:300px;
+    border-radius:500%;
+    margin-top:50px;
+    border:2px solid black
+}
+#bio{
+    padding-top: 650px;
+}
+#heading1{
+font-size:40px;
+}
+#h1{
+    font-size:30px;
+    font-family: fantasy;
+        letter-spacing:5px;
+}
+#h2{
+    font-size:20px;
+}
+#p1{
+    text-align: justify;
+    word-spacing: 5px;
+}
+.menu{
+    list-style: none;
+    position: absolute;
+    z-index:10;
+    right:30;
+    cursor:pointer;
+    
+}
+
+.list{
+    float: left;
+    color:darkgoldenrod;
+    padding:5px 10px;
+    font-size:20px;
+    font-family:cursive; 
+}
+.list:hover{
+    font-size:25px;
+    color:darkred;
+    text-decoration: underline;
+    font-family:sans-serif;
+}
